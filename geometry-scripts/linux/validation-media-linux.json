@@ -1,0 +1,388 @@
+{
+  "system": "Linux",
+  "machine": "x86_64",
+  "python": "3.12.14",
+  "cpu_affinity": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "scope": "Two calibrations, both eyes, one-frame stills and first three frames of actual videos. Native raster to 7200-square EQ and back; full decode/count/PTS of produced files. FFV1 adds no codec loss but projection interpolation is lossy. No BRAW or Resolve-equivalence claim.",
+  "passed": true,
+  "schema": "vr180.geometry.real-media-linux.v1",
+  "validated_at_utc": "2026-10-05T17:10:48.547709+00:00",
+  "rows": [
+    {
+      "sample_id": "sample_313EB900-E3CC-4DC5-A170-35D390F2B481",
+      "calibration_id": "af4eb6c1-de49-4b81-9d24-5648cd5f2832",
+      "media_type": "still",
+      "eye": "LEFT",
+      "direction": "fisheye-to-eq",
+      "dimensions": [
+        7200,
+        7200
+      ],
+      "decoded_frames": 1,
+      "fps": "90",
+      "pts_seconds": [
+        0.0
+      ],
+      "time_base": "1/1000",
+      "pix_fmt": "gbrp16le",
+      "codec": "ffv1",
+      "output_sha256": "eced880ffc16e5cf68e0a8cb2bbb621262bdc96fa37b834c0c8faa2da9bf558c",
+      "seconds": 11.271829931996763,
+      "passed": true
+    },
+    {
+      "sample_id": "sample_313EB900-E3CC-4DC5-A170-35D390F2B481",
+      "calibration_id": "af4eb6c1-de49-4b81-9d24-5648cd5f2832",
+      "media_type": "still",
+      "eye": "LEFT",
+      "direction": "eq-to-fisheye",
+      "dimensions": [
+        8160,
+        7200
+      ],
+      "decoded_frames": 1,
+      "fps": "90",
+      "pts_seconds": [
+        0.0
+      ],
+      "time_base": "1/1000",
+      "pix_fmt": "gbrp16le",
+      "codec": "ffv1",
+      "output_sha256": "bb4e9b0f8d0e8060ccafcdced61d0ed649904a654ed176e1cb29f61c275ee8e0",
+      "seconds": 132.82452317798743,
+      "passed": true
+    },
+    {
+      "sample_id": "sample_313EB900-E3CC-4DC5-A170-35D390F2B481",
+      "calibration_id": "af4eb6c1-de49-4b81-9d24-5648cd5f2832",
+      "media_type": "still",
+      "eye": "RIGHT",
+      "direction": "fisheye-to-eq",
+      "dimensions": [
+        7200,
+        7200
+      ],
+      "decoded_frames": 1,
+      "fps": "90",
+      "pts_seconds": [
+        0.0
+      ],
+      "time_base": "1/1000",
+      "pix_fmt": "gbrp16le",
+      "codec": "ffv1",
+      "output_sha256": "5036c63bad79dd29d911daba296b2a3ecdd8ca721d3c3ff2310be2fcff60a697",
+      "seconds": 11.294142449973151,
+      "passed": true
+    },
+    {
+      "sample_id": "sample_313EB900-E3CC-4DC5-A170-35D390F2B481",
+      "calibration_id": "af4eb6c1-de49-4b81-9d24-5648cd5f2832",
+      "media_type": "still",
+      "eye": "RIGHT",
+      "direction": "eq-to-fisheye",
+      "dimensions": [
+        8160,
+        7200
+      ],
+      "decoded_frames": 1,
+      "fps": "90",
+      "pts_seconds": [
+        0.0
+      ],
+      "time_base": "1/1000",
+      "pix_fmt": "gbrp16le",
+      "codec": "ffv1",
+      "output_sha256": "f62d886409d97ddeecd2f20ced9664a09f02f9f84cd0520dbefcdeaa7cfff56a",
+      "seconds": 134.48241182003403,
+      "passed": true
+    },
+    {
+      "sample_id": "sample_1D706FD9-7466-42FC-BC4C-14C686B7D6D1",
+      "calibration_id": "af4eb6c1-de49-4b81-9d24-5648cd5f2832",
+      "media_type": "video",
+      "eye": "LEFT",
+      "direction": "fisheye-to-eq",
+      "dimensions": [
+        7200,
+        7200
+      ],
+      "decoded_frames": 3,
+      "fps": "90",
+      "pts_seconds": [
+        0.0,
+        0.011,
+        0.022
+      ],
+      "time_base": "1/1000",
+      "pix_fmt": "gbrp16le",
+      "codec": "ffv1",
+      "output_sha256": "0e10e7f51beb49c71e2477cc58192b6d5de146300a789643f3b80e55b5ec7190",
+      "seconds": 44.18265180598246,
+      "passed": true
+    },
+    {
+      "sample_id": "sample_1D706FD9-7466-42FC-BC4C-14C686B7D6D1",
+      "calibration_id": "af4eb6c1-de49-4b81-9d24-5648cd5f2832",
+      "media_type": "video",
+      "eye": "LEFT",
+      "direction": "eq-to-fisheye",
+      "dimensions": [
+        8160,
+        7200
+      ],
+      "decoded_frames": 3,
+      "fps": "90",
+      "pts_seconds": [
+        0.0,
+        0.011,
+        0.022
+      ],
+      "time_base": "1/1000",
+      "pix_fmt": "gbrp16le",
+      "codec": "ffv1",
+      "output_sha256": "5d19d8393ec548b91a75ace36643028ab08d02c2b3dba34297a68b7a1f1d4d79",
+      "seconds": 174.26132711896207,
+      "passed": true
+    },
+    {
+      "sample_id": "sample_1D706FD9-7466-42FC-BC4C-14C686B7D6D1",
+      "calibration_id": "af4eb6c1-de49-4b81-9d24-5648cd5f2832",
+      "media_type": "video",
+      "eye": "RIGHT",
+      "direction": "fisheye-to-eq",
+      "dimensions": [
+        7200,
+        7200
+      ],
+      "decoded_frames": 3,
+      "fps": "90",
+      "pts_seconds": [
+        0.0,
+        0.011,
+        0.022
+      ],
+      "time_base": "1/1000",
+      "pix_fmt": "gbrp16le",
+      "codec": "ffv1",
+      "output_sha256": "e15d544b2f21cda9a86f1db187a866ebe47601e27bf83f1c638eecd3d94c62a6",
+      "seconds": 43.90307652798947,
+      "passed": true
+    },
+    {
+      "sample_id": "sample_1D706FD9-7466-42FC-BC4C-14C686B7D6D1",
+      "calibration_id": "af4eb6c1-de49-4b81-9d24-5648cd5f2832",
+      "media_type": "video",
+      "eye": "RIGHT",
+      "direction": "eq-to-fisheye",
+      "dimensions": [
+        8160,
+        7200
+      ],
+      "decoded_frames": 3,
+      "fps": "90",
+      "pts_seconds": [
+        0.0,
+        0.011,
+        0.022
+      ],
+      "time_base": "1/1000",
+      "pix_fmt": "gbrp16le",
+      "codec": "ffv1",
+      "output_sha256": "49a7557aaaefeaa82260b2097271b2ceba26f3f77e8af394499a3dce8885bd09",
+      "seconds": 173.13263972499408,
+      "passed": true
+    },
+    {
+      "sample_id": "sample_2FA292E7-3B5C-4BDE-B116-B38688ABA719",
+      "calibration_id": "c2e38fa4-4158-463e-975c-ca28b62893f3",
+      "media_type": "still",
+      "eye": "LEFT",
+      "direction": "fisheye-to-eq",
+      "dimensions": [
+        7200,
+        7200
+      ],
+      "decoded_frames": 1,
+      "fps": "90",
+      "pts_seconds": [
+        0.0
+      ],
+      "time_base": "1/1000",
+      "pix_fmt": "gbrp16le",
+      "codec": "ffv1",
+      "output_sha256": "af1615192775ac5821982b2a3651e84ea63598a9386d2c8575d222989a10bbcc",
+      "seconds": 8.751824600039981,
+      "passed": true
+    },
+    {
+      "sample_id": "sample_2FA292E7-3B5C-4BDE-B116-B38688ABA719",
+      "calibration_id": "c2e38fa4-4158-463e-975c-ca28b62893f3",
+      "media_type": "still",
+      "eye": "LEFT",
+      "direction": "eq-to-fisheye",
+      "dimensions": [
+        8160,
+        7200
+      ],
+      "decoded_frames": 1,
+      "fps": "90",
+      "pts_seconds": [
+        0.0
+      ],
+      "time_base": "1/1000",
+      "pix_fmt": "gbrp16le",
+      "codec": "ffv1",
+      "output_sha256": "5a41fee825707b166d348f501989318a8cacf21fbc75bf62f3ab472d05321dda",
+      "seconds": 129.74285136797698,
+      "passed": true
+    },
+    {
+      "sample_id": "sample_2FA292E7-3B5C-4BDE-B116-B38688ABA719",
+      "calibration_id": "c2e38fa4-4158-463e-975c-ca28b62893f3",
+      "media_type": "still",
+      "eye": "RIGHT",
+      "direction": "fisheye-to-eq",
+      "dimensions": [
+        7200,
+        7200
+      ],
+      "decoded_frames": 1,
+      "fps": "90",
+      "pts_seconds": [
+        0.0
+      ],
+      "time_base": "1/1000",
+      "pix_fmt": "gbrp16le",
+      "codec": "ffv1",
+      "output_sha256": "be6c75af2ae1be590b582717f89d8694f5f68ca1d21842fd4cc9412bc7d9d55d",
+      "seconds": 8.842605481971987,
+      "passed": true
+    },
+    {
+      "sample_id": "sample_2FA292E7-3B5C-4BDE-B116-B38688ABA719",
+      "calibration_id": "c2e38fa4-4158-463e-975c-ca28b62893f3",
+      "media_type": "still",
+      "eye": "RIGHT",
+      "direction": "eq-to-fisheye",
+      "dimensions": [
+        8160,
+        7200
+      ],
+      "decoded_frames": 1,
+      "fps": "90",
+      "pts_seconds": [
+        0.0
+      ],
+      "time_base": "1/1000",
+      "pix_fmt": "gbrp16le",
+      "codec": "ffv1",
+      "output_sha256": "74a273841ea9e6be675d00965b09d7ca178bde914ef6d4f3a58fa4117857a5d3",
+      "seconds": 129.74314329697518,
+      "passed": true
+    },
+    {
+      "sample_id": "sample_4C4BC2CA-6617-4E0E-B70C-1AAFD27671ED",
+      "calibration_id": "c2e38fa4-4158-463e-975c-ca28b62893f3",
+      "media_type": "video",
+      "eye": "LEFT",
+      "direction": "fisheye-to-eq",
+      "dimensions": [
+        7200,
+        7200
+      ],
+      "decoded_frames": 3,
+      "fps": "90",
+      "pts_seconds": [
+        0.0,
+        0.011,
+        0.022
+      ],
+      "time_base": "1/1000",
+      "pix_fmt": "gbrp16le",
+      "codec": "ffv1",
+      "output_sha256": "03bfcd8d654fe1871d20d3214096c4170013fb07bd12297c630acfad49279e87",
+      "seconds": 35.614945371984504,
+      "passed": true
+    },
+    {
+      "sample_id": "sample_4C4BC2CA-6617-4E0E-B70C-1AAFD27671ED",
+      "calibration_id": "c2e38fa4-4158-463e-975c-ca28b62893f3",
+      "media_type": "video",
+      "eye": "LEFT",
+      "direction": "eq-to-fisheye",
+      "dimensions": [
+        8160,
+        7200
+      ],
+      "decoded_frames": 3,
+      "fps": "90",
+      "pts_seconds": [
+        0.0,
+        0.011,
+        0.022
+      ],
+      "time_base": "1/1000",
+      "pix_fmt": "gbrp16le",
+      "codec": "ffv1",
+      "output_sha256": "c6b75822ada6305ae2cad7b0bb613ab388a4f38ed1e1227d21dfe4d518e30bd7",
+      "seconds": 161.60580310295336,
+      "passed": true
+    },
+    {
+      "sample_id": "sample_4C4BC2CA-6617-4E0E-B70C-1AAFD27671ED",
+      "calibration_id": "c2e38fa4-4158-463e-975c-ca28b62893f3",
+      "media_type": "video",
+      "eye": "RIGHT",
+      "direction": "fisheye-to-eq",
+      "dimensions": [
+        7200,
+        7200
+      ],
+      "decoded_frames": 3,
+      "fps": "90",
+      "pts_seconds": [
+        0.0,
+        0.011,
+        0.022
+      ],
+      "time_base": "1/1000",
+      "pix_fmt": "gbrp16le",
+      "codec": "ffv1",
+      "output_sha256": "79cebe549ea13eafa3c6acc537b719b3a81886f8ee1dae5f8808a3b09472b269",
+      "seconds": 35.50990893901326,
+      "passed": true
+    },
+    {
+      "sample_id": "sample_4C4BC2CA-6617-4E0E-B70C-1AAFD27671ED",
+      "calibration_id": "c2e38fa4-4158-463e-975c-ca28b62893f3",
+      "media_type": "video",
+      "eye": "RIGHT",
+      "direction": "eq-to-fisheye",
+      "dimensions": [
+        8160,
+        7200
+      ],
+      "decoded_frames": 3,
+      "fps": "90",
+      "pts_seconds": [
+        0.0,
+        0.011,
+        0.022
+      ],
+      "time_base": "1/1000",
+      "pix_fmt": "gbrp16le",
+      "codec": "ffv1",
+      "output_sha256": "bec81a8e25e36cf5e0f1df17c57f63b75b6342be9c3e94ac9f285df2693cb0cd",
+      "seconds": 159.35052996798186,
+      "passed": true
+    }
+  ],
+  "total_output_frames": 32,
+  "tests": 16,
+  "visual_review": "Recorded separately; these rows describe technical checks"
+}

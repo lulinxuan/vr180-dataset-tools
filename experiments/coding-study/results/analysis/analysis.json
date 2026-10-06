@@ -1,0 +1,316 @@
+{
+  "partial_pipeline_test": false,
+  "complete_cases": 24,
+  "selected_cases": 24,
+  "sign_convention": "BD-rate of fisheye relative to half-EQ; negative means fisheye needs less rate",
+  "summary": {
+    "all": {
+      "n": 24,
+      "median_percent": 38.418790984378376,
+      "min_percent": 24.071038834936235,
+      "max_percent": 229.21678595372148,
+      "unavailable": 0,
+      "unavailable_reasons": []
+    },
+    "center": {
+      "n": 24,
+      "median_percent": 34.96033692753581,
+      "min_percent": 16.467726728737368,
+      "max_percent": 216.6663895025624,
+      "unavailable": 0,
+      "unavailable_reasons": []
+    },
+    "lateral": {
+      "n": 24,
+      "median_percent": 37.37624694492158,
+      "min_percent": 24.834638761596313,
+      "max_percent": 274.7763578068839,
+      "unavailable": 0,
+      "unavailable_reasons": []
+    },
+    "upper": {
+      "n": 24,
+      "median_percent": 40.943839546949974,
+      "min_percent": 25.961708910915394,
+      "max_percent": 177.70925578416316,
+      "unavailable": 0,
+      "unavailable_reasons": []
+    },
+    "lower": {
+      "n": 24,
+      "median_percent": 45.47711578300894,
+      "min_percent": 21.78547643370206,
+      "max_percent": 213.79311659864868,
+      "unavailable": 0,
+      "unavailable_reasons": []
+    }
+  },
+  "exploratory": {
+    "all": {
+      "fisheye_better": 0,
+      "eq_better": 24,
+      "bootstrap95_median_percent": [
+        32.11155653533536,
+        56.57667092416493
+      ],
+      "wilcoxon_p_two_sided": 1.1920928955078125e-07
+    },
+    "center": {
+      "fisheye_better": 0,
+      "eq_better": 24,
+      "bootstrap95_median_percent": [
+        31.659668478298887,
+        47.74424376319776
+      ],
+      "wilcoxon_p_two_sided": 1.1920928955078125e-07
+    },
+    "lateral": {
+      "fisheye_better": 0,
+      "eq_better": 24,
+      "bootstrap95_median_percent": [
+        32.52640906695301,
+        56.045506403467826
+      ],
+      "wilcoxon_p_two_sided": 1.1920928955078125e-07
+    },
+    "upper": {
+      "fisheye_better": 0,
+      "eq_better": 24,
+      "bootstrap95_median_percent": [
+        37.30795443466267,
+        49.656778292842944
+      ],
+      "wilcoxon_p_two_sided": 1.1920928955078125e-07
+    },
+    "lower": {
+      "fisheye_better": 0,
+      "eq_better": 24,
+      "bootstrap95_median_percent": [
+        34.18958662391082,
+        62.19854734500214
+      ],
+      "wilcoxon_p_two_sided": 1.1920928955078125e-07
+    },
+    "by_label_all_region": {
+      "camera_motion": {
+        "Static": {
+          "n": 15,
+          "median_percent": 37.392231296238286,
+          "min_percent": 24.071038834936235,
+          "max_percent": 146.06633679403714
+        },
+        "Translation": {
+          "n": 3,
+          "median_percent": 50.87833134419005,
+          "min_percent": 29.93988435399904,
+          "max_percent": 229.21678595372148
+        },
+        "Unspecified": {
+          "n": 6,
+          "median_percent": 40.09300689665933,
+          "min_percent": 29.997182150511236,
+          "max_percent": 79.99974871180775
+        }
+      },
+      "object_motion": {
+        "Local motion": {
+          "n": 16,
+          "median_percent": 40.78349617013697,
+          "min_percent": 24.071038834936235,
+          "max_percent": 146.06633679403714
+        },
+        "No significant motion": {
+          "n": 5,
+          "median_percent": 39.44535067251847,
+          "min_percent": 29.997182150511236,
+          "max_percent": 229.21678595372148
+        },
+        "Unspecified": {
+          "n": 1,
+          "median_percent": 68.06451241180447,
+          "min_percent": 68.06451241180447,
+          "max_percent": 68.06451241180447
+        },
+        "Widespread motion": {
+          "n": 2,
+          "median_percent": 30.307444477159443,
+          "min_percent": 28.679416758890646,
+          "max_percent": 31.93547219542824
+        }
+      },
+      "low_light": {
+        "absent": {
+          "n": 12,
+          "median_percent": 35.38809008978738,
+          "min_percent": 24.071038834936235,
+          "max_percent": 229.21678595372148
+        },
+        "present": {
+          "n": 12,
+          "median_percent": 50.52927835331661,
+          "min_percent": 26.90250440074707,
+          "max_percent": 146.06633679403714
+        }
+      },
+      "low_texture": {
+        "not present": {
+          "n": 4,
+          "median_percent": 32.34533475408682,
+          "min_percent": 26.90250440074707,
+          "max_percent": 56.57667092416493
+        },
+        "present": {
+          "n": 20,
+          "median_percent": 41.81005585827707,
+          "min_percent": 24.071038834936235,
+          "max_percent": 229.21678595372148
+        }
+      },
+      "calibration": {
+        "af4eb6c1": {
+          "n": 10,
+          "median_percent": 40.09300689665933,
+          "min_percent": 28.679416758890646,
+          "max_percent": 71.59987000123708
+        },
+        "c2e38fa4": {
+          "n": 14,
+          "median_percent": 38.418790984378376,
+          "min_percent": 24.071038834936235,
+          "max_percent": 229.21678595372148
+        }
+      }
+    },
+    "ssim_db_bd_rate": {
+      "all": {
+        "n": 24,
+        "median_percent": 53.71928006852147,
+        "min_percent": 25.410793213226064,
+        "max_percent": 1004.0878673979707,
+        "unavailable": 0,
+        "fisheye_better": 0,
+        "same_sign_as_psnr": 24
+      },
+      "center": {
+        "n": 23,
+        "median_percent": 48.54020388749026,
+        "min_percent": 16.436405020954574,
+        "max_percent": 1757.4155604154605,
+        "unavailable": 1,
+        "fisheye_better": 0,
+        "same_sign_as_psnr": 23
+      },
+      "lateral": {
+        "n": 24,
+        "median_percent": 51.660346079832735,
+        "min_percent": 25.81518449214067,
+        "max_percent": 677.8671986929754,
+        "unavailable": 0,
+        "fisheye_better": 0,
+        "same_sign_as_psnr": 24
+      },
+      "upper": {
+        "n": 23,
+        "median_percent": 52.99945114733513,
+        "min_percent": 18.450374991754867,
+        "max_percent": 507.65672404108864,
+        "unavailable": 1,
+        "fisheye_better": 0,
+        "same_sign_as_psnr": 23
+      },
+      "lower": {
+        "n": 23,
+        "median_percent": 47.09171803498708,
+        "min_percent": 16.424694188269687,
+        "max_percent": 603.3967878277122,
+        "unavailable": 1,
+        "fisheye_better": 0,
+        "same_sign_as_psnr": 23
+      }
+    },
+    "same_crf_rate_ratio": {
+      "18": {
+        "n": 24,
+        "median_percent": 1.2022616462576132,
+        "min_percent": 0.9774044300789467,
+        "max_percent": 1.4550574761873667,
+        "note": "fisheye/EQ stereo rate ratio at equal CRF (not equal quality)"
+      },
+      "24": {
+        "n": 24,
+        "median_percent": 1.1339040354193914,
+        "min_percent": 0.8252778024172674,
+        "max_percent": 1.354796408314838,
+        "note": "fisheye/EQ stereo rate ratio at equal CRF (not equal quality)"
+      },
+      "30": {
+        "n": 24,
+        "median_percent": 1.1635058418932847,
+        "min_percent": 0.938844937711483,
+        "max_percent": 1.320754862804132,
+        "note": "fisheye/EQ stereo rate ratio at equal CRF (not equal quality)"
+      },
+      "36": {
+        "n": 24,
+        "median_percent": 1.1659745384441167,
+        "min_percent": 1.0050275031232803,
+        "max_percent": 1.365398471475258,
+        "note": "fisheye/EQ stereo rate ratio at equal CRF (not equal quality)"
+      }
+    },
+    "psnr_all_by_crf_db": {
+      "fisheye": {
+        "18": {
+          "n": 24,
+          "median_percent": 43.084604540041475,
+          "min_percent": 36.8049677434558,
+          "max_percent": 47.417569455608785
+        },
+        "24": {
+          "n": 24,
+          "median_percent": 41.58573773545575,
+          "min_percent": 35.21722073178029,
+          "max_percent": 45.865672632364124
+        },
+        "30": {
+          "n": 24,
+          "median_percent": 39.57819457290562,
+          "min_percent": 32.80020810576323,
+          "max_percent": 43.68960691475585
+        },
+        "36": {
+          "n": 24,
+          "median_percent": 37.040260716034695,
+          "min_percent": 29.791085527594298,
+          "max_percent": 40.84899642935156
+        }
+      },
+      "eq": {
+        "18": {
+          "n": 24,
+          "median_percent": 43.681466976344474,
+          "min_percent": 37.1219719280393,
+          "max_percent": 48.165273477344556
+        },
+        "24": {
+          "n": 24,
+          "median_percent": 42.11656239796152,
+          "min_percent": 35.63525393777105,
+          "max_percent": 46.49660805061117
+        },
+        "30": {
+          "n": 24,
+          "median_percent": 40.069850624091345,
+          "min_percent": 33.25070886413517,
+          "max_percent": 44.196494964657035
+        },
+        "36": {
+          "n": 24,
+          "median_percent": 37.530228545127606,
+          "min_percent": 30.2689688753837,
+          "max_percent": 41.21191108020903
+        }
+      }
+    }
+  }
+}

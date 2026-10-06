@@ -1,0 +1,16 @@
+{
+  "schema": "vr180.geometry.validation.v1",
+  "tested_at_utc": "2026-10-07T00:49:51.687538+00:00",
+  "system": "Linux",
+  "machine": "x86_64",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "opencv": "5.0.0"
+  },
+  "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "passed": true,
+  "output": "test_corrupt_map_is_rejected (test_geometry.GeometryTests.test_corrupt_map_is_rejected) ... ok\ntest_inverse_and_out_of_domain (test_geometry.GeometryTests.test_inverse_and_out_of_domain) ... ok\ntest_real_both_calibrations_both_eyes (test_geometry.GeometryTests.test_real_both_calibrations_both_eyes) ... ok\ntest_synthetic_identity_and16bit (test_geometry.GeometryTests.test_synthetic_identity_and16bit) ... ok\ntest_wrong_calibration_is_rejected (test_geometry.GeometryTests.test_wrong_calibration_is_rejected) ... ok\ntest_wrong_eye_is_not_silently_reused (test_geometry.GeometryTests.test_wrong_eye_is_not_silently_reused) ... ok\ntest_interpolation_is_applied_and_recorded (test_video.VideoTests.test_interpolation_is_applied_and_recorded) ... ok\ntest_limited_video_exits_and_preserves_count (test_video.VideoTests.test_limited_video_exits_and_preserves_count) ... ok\ntest_whole_video_audio_and_reverse (test_video.VideoTests.test_whole_video_audio_and_reverse) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 2.438s\n\nOK\n",
+  "scope": "Numerical lookup/inversion, full-calibration/map integrity, 16-bit image remap, synthetic CFR video count/rate, interpolation option, audio copy, and inverse video. Not physical calibration accuracy or equality to Resolve."
+}

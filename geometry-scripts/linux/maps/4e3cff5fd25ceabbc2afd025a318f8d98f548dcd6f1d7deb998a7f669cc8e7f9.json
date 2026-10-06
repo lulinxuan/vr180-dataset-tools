@@ -1,0 +1,42 @@
+{
+  "schema": "vr180.stmap.v1",
+  "calibration_sha256": "4e3cff5fd25ceabbc2afd025a318f8d98f548dcd6f1d7deb998a7f669cc8e7f9",
+  "calibration_file": "../calibrations/4e3cff5fd25ceabbc2afd025a318f8d98f548dcd6f1d7deb998a7f669cc8e7f9.ilpd.json",
+  "camera_id": "bfb94b74-996c-4414-b71e-7ad4a30bb4ef",
+  "grid_size": [
+    4096,
+    4096
+  ],
+  "projection": "half_equirectangular",
+  "angular_bounds_degrees": [
+    -90,
+    90,
+    -90,
+    90
+  ],
+  "pixel_convention": "uv_to_source_pixel_center: uv*[W,H]-0.5; lookup at (x+0.5)*grid_width/output_width-0.5",
+  "generator": "Apple ImmersiveCameraLensDefinition.generateSTMap(equirectangular); precomputed data, no Apple runtime required by consumer",
+  "source_sizes": {
+    "left": [
+      8160,
+      7200
+    ],
+    "right": [
+      8160,
+      7200
+    ]
+  },
+  "eyes": {
+    "left": {
+      "file": "4e3cff5fd25ceabbc2afd025a318f8d98f548dcd6f1d7deb998a7f669cc8e7f9-left.npy",
+      "bytes": 134217856,
+      "sha256": "b6650ae909cfe7b3a15bea883209b26a3e8cd2f79ba7520c3244924ca8a275aa"
+    },
+    "right": {
+      "file": "4e3cff5fd25ceabbc2afd025a318f8d98f548dcd6f1d7deb998a7f669cc8e7f9-right.npy",
+      "bytes": 134217856,
+      "sha256": "37aed4746fe93f02611a53bcd7d4249361e989922c1708df825f28ed545db034"
+    }
+  },
+  "validity_scope": "coordinate bounds only; not scene depth or semantic visibility; Apple mask feathering not reproduced"
+}

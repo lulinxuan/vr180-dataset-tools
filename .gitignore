@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+geometry-scripts/linux/maps/*.npy
+geometry-scripts/linux/maps/*.part
+.DS_Store
